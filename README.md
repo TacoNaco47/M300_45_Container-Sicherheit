@@ -262,7 +262,7 @@ Seit Docker 1.5 kann `docker run` das Flag `--read-only` übergeben, welches das
 **Capabilities einschränken** <br>
 Der Linux-Kernel definiert eine Reihe von Berechtigungen (Capabilities), welche Prozessen zugewiesen werden können, um ihnen einen erweiterten Zugriff auf das System zu gestatten.
 
-Die Capabilities decken einen großen Funktionsbereich ab, vom Ändern der Systemzeit bis hin zum Öffnen von Netzwerk-Sockets.
+Die Capabilities decken einen grossen Funktionsbereich ab, vom Ändern der Systemzeit bis hin zum Öffnen von Netzwerk-Sockets.
 
 ```Shell
     $ docker run --cap-drop all --cap-add CHOWN ubuntu chown 100 /tmp
@@ -318,7 +318,7 @@ Docker-in-Docker (DinD) bedeutet einfach, dass Docker selbst in einem Docker-Con
 
 Dazu sind ein paar besondere Konfigurationseinstellungen notwendig – vor allem muss der Container im privilegierten Modus laufen und ein paar Hakeleien mit dem Dateisystem berücksichtigen.
 
-Der größte Unterschied zwischen DinD und dem Socket Mounting ist, dass die bei DinD erzeugten Container von den Host-Containern isoliert sind; ein Ausführen von `docker ps` im DinD-Container zeigt nur die Container, die vom DinD-Docker Daemon erstellt wurden. Im Gegensatz dazu zeigt `docker ps` beim Socket Mounting alle Container, unabhängig davon, wo dieser Befehl ausgeführt wird. 
+Der grösste Unterschied zwischen DinD und dem Socket Mounting ist, dass die bei DinD erzeugten Container von den Host-Containern isoliert sind; ein Ausführen von `docker ps` im DinD-Container zeigt nur die Container, die vom DinD-Docker Daemon erstellt wurden. Im Gegensatz dazu zeigt `docker ps` beim Socket Mounting alle Container, unabhängig davon, wo dieser Befehl ausgeführt wird. 
 
 Bei DinD (Docker-in-Docker) sollte folgendes beachtet werden:
 * Man hat seinen eigenen Cache ...
