@@ -25,7 +25,7 @@ Die nachstehende Dokumentation wurde von Michael Blickenstorfer im Rahmen des Mo
 * 03 - [Kontinuierliche Integration](https://github.com/TacoNaco47/M300_45_Container-Sicherheit#-03---kontinuierliche-integration)
 ___
 
-![](XXX "Protokollieren & Überwachen") 01 - Protokollieren & Überwachen
+![](https://github.com/TacoNaco47/M300_45_Container-Sicherheit/blob/master/images/Log_36x36.png?raw=true "Protokollieren & Überwachen") 01 - Protokollieren & Überwachen
 ======
 
 > [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_45_Container-Sicherheit#m300---container-sicherheit-45)
@@ -99,7 +99,7 @@ Nachdem Hochfahren des Containers, kann er im Browser unter http://localhost:808
 
 
 
-![](XXX "Container sichern & beschränken") 02 - Container sichern & beschränken
+![](https://github.com/TacoNaco47/M300_45_Container-Sicherheit/blob/master/images/Lock_36x36.png?raw=true "Container sichern & beschränken") 02 - Container sichern & beschränken
 ======
 
 > [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_45_Container-Sicherheit#m300---container-sicherheit-45)
@@ -278,7 +278,7 @@ Diese lassen sich auch auf Docker-Container anwenden – entweder durch Übergab
 ```
 
 
-![](XXX "Kontinuierliche Integration") 03 - Kontinuierliche Integration
+![](https://github.com/TacoNaco47/M300_45_Container-Sicherheit/blob/master/images/Continuous_Integration_36x36.png?raw=true "Kontinuierliche Integration") 03 - Kontinuierliche Integration
 ======
 
 > [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_45_Container-Sicherheit#m300---container-sicherheit-45)
